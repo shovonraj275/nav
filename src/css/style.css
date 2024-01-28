@@ -27,7 +27,7 @@ section#headnav div.flex_container div.flex.w_20 img {
 
 
 section#headnav div.flex_container div.flex.w_40 {
-    width: 52%;
+    width: 53%;
 }
 
 section#headnav div.flex_container div.flex.w_40 ul {
@@ -44,6 +44,7 @@ section#headnav div.flex_container div.flex.w_40 ul li a{
     background: #fff;
     color: #000;
     margin: 5px;
+    text-transform: capitalize; 
 }
 section#headnav div.flex_container div.flex.w_40 ul li a:hover{
     background-color: #00AD72;
@@ -91,6 +92,7 @@ i.fa.fa-search {
     text-decoration: none;
     padding: 10px;
     color: #000;
+    text-transform: capitalize;
 }
 .btn{
     padding: 8px 16px;
@@ -119,9 +121,26 @@ i.fa.fa-search {
 }
 .sing_in{
     position: absolute;
-    right: -11px;
+    right: -20  px;
     width: 101px;
     text-align: end;
     background: #f7f7f7;
 
+}
+
+#Lower_nav{
+ 
+}
+#Lower_nav ul{}
+#Lower_nav ul li{
+    list-style: none;
+    float: left;
+}
+#Lower_nav ul li a{
+    padding: 16px 12px;
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    color: #FFf;
+    background: #000;
 }
