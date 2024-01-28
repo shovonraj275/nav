@@ -16,21 +16,22 @@ section#headnav div.flex_container div.flex {
 }
 section#headnav div.flex_container div.flex.w_20 {
     margin-left: 15px;
+    width: 5%;
 }
 
 section#headnav div.flex_container div.flex.w_20 img {
- width: 70px;
- height: 70px;
+ width: 50px;
+ height: 50px;
 }
 
 
 
 section#headnav div.flex_container div.flex.w_40 {
-    width: 38%;
+    width: 52%;
 }
 
 section#headnav div.flex_container div.flex.w_40 ul {
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 section#headnav div.flex_container div.flex.w_40 ul li {
@@ -75,4 +76,52 @@ i.fa.fa-search {
     /* color: #fff; */
     border-radius: 50%;
     margin-top: 2px;
+}
+.right_nav{
+        position: relative;
+}
+.right_nav ul{
+
+}
+.right_nav ul li {
+    list-style: none;
+    float: left;
+}
+.right_nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+}
+.btn{
+    padding: 8px 16px;
+    background: yellowgreen;
+    color: #000;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+.btn_re{
+    position: relative;
+    width: 145px;
+    margin-top: -13px;   
+}
+.sing_up{
+    position: absolute;
+    z-index: 1;
+    color: #fff ;  
+    background: #059862;
+}
+.right_nav ul li a .sing_in{
+    width: 75px;
+    /* margin-left: 26px; */
+    z-index: 2;
+    padding-left: 34px;
+    margin-right: -35px;
+}
+.sing_in{
+    position: absolute;
+    right: -11px;
+    width: 101px;
+    text-align: end;
+    background: #f7f7f7;
+
 }
